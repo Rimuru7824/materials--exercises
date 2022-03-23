@@ -1,10 +1,3 @@
-/*
-Câu 2. 
-a. Viết hàm kiểm tra số nguyên tố
-b. Nhập số nguyên dương N. Ghi vào tệp Output1.txt số nguyên tố gần N nhất (số đó > N)
-c. Ghi vào tệp Output2.txt số nguyên tố gần N nhất (số đó < N)
-d. Tính tổng các số nguyên tố từ 1 --> N (N nhập từ bàn phím) rồi ghi vào tệp Output3.txt
-*/
 #include <bits/stdc++.h>
 using namespace std;
 
