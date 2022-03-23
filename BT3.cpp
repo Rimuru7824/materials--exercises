@@ -1,12 +1,3 @@
-/*
-Bài tập 3.
-SỐ ANH EM (Tin học trẻ toàn quốc lần I – 1995)
-- Ước thực sự của số tự nhiên n là ước khác 1 và chính nó của n; hai số được gọi là anh em nếu chúng có tổng các ước thực sự bằng nhau
-VD: 6 và 25 được gọi là hai số anh em vì các ước thực sự của 6 là 2 và 3 có tổng bằng 5 và các ước thực sự của 25 là 5 có tổng các ước thực sự là 5
-Viết chương trình để thực hiện chương trình gồm 2 phần
-Phần 1 nhập vào 2 số cho biết chúng có là hai số anh em không?
-Phần 2 nhập vào số n in ra màn hình những cặp số anh em
-*/
 #include <bits/stdc++.h>
 using namespace std;
 
