@@ -32,10 +32,10 @@ int main()
     }
     if(n==0)
     {
-        cout << "1";
+        cout << endl << "1";
     }else
     {
-        cout << gt(n);
+        cout << endl <<  gt(n);
     }
     return 0;
 }
