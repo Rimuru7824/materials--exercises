@@ -1,4 +1,6 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <fstream>
+#include <math.h>
 using namespace std;
 
 bool prime(int n)
