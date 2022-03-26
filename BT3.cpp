@@ -8,7 +8,7 @@ int cp(int n) {
 }
 int UD(int n) {
     int sum=0;
-    for (int i = 2; i < sqrt(n); i++) {
+    for (int i = 2; i <sqrt(n); i++) {
         if (n % i == 0) {
             sum += i;
             int x = n/i;
@@ -18,6 +18,21 @@ int UD(int n) {
     if (cp(n) == 1) sum += sqrt(n);
     return sum;
 }
+void p2(int n)
+{
+    for(int i=4;i<n;i++)
+    {
+        for(int j=i+1;j<=n;j++)
+        {
+            int x = UD(i);
+            int y = UD(j);
+            if(x==y && x != 0)
+            {
+                cout << i << " sae " << j << endl;
+            }
+        }
+    }
+}     
 
 int main()
 {
@@ -37,5 +52,6 @@ int main()
     int N;
     cin >> N;
     // đang làm 
+     p2(N);
     return 0;
 }
