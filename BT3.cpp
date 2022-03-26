@@ -36,9 +36,13 @@ void p2(int n)
 
 int main()
 {
+    freopen("input.inp","r",stdin);
+    freopen("output.inp","w",stdout);
     // phần 1 
     int n, m;
     cin >> n >> m;
+    int N;
+    cin >> N;
     int x = UD(n);
     int y = UD(m);
     if(x==y)
@@ -49,8 +53,6 @@ int main()
         cout << "NO" << endl;
     }
     // phần 2 
-    int N;
-    cin >> N;
      p2(N);
     return 0;
 }
