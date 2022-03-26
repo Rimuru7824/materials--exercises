@@ -30,6 +30,8 @@ int cau_c(int i, int k)
 }
 int main()
 {
+    freopen("input.inp","r",stdin);
+    freopen("output.inp","w"stdout);
     int b = 1;
     int c = 1;
     unsigned long n;
