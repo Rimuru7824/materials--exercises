@@ -23,6 +23,8 @@ int UD(int n) {
 }
 int main()
 {
+	 freopen("input.inp","r",stdin);
+         freopen("output.inp","w"stdout);
 	// phần 1
 	int n;
 	cin >> n;
