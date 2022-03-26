@@ -51,7 +51,6 @@ int main()
     // phần 2 
     int N;
     cin >> N;
-    // đang làm 
      p2(N);
     return 0;
 }
