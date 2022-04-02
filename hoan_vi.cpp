@@ -1,25 +1,25 @@
 #include <iostream>
 #include <string.h>
+#include <fstream>
 using namespace std;
-string s = "ABCDEF" ;
-string s1;
+string s;
 int k, i;
 int count = 0;
 void xuat()
 {
-    for (int i = 0; i < k; i++)
+    for (int i = 0; i < 4; i++)
     {
-        cout << s1[i];
+        cout << s[i];
     }
     cout << endl;
     count++;
 }
 void permutation(int i)
 {
-    for (int j = 0; j < s.length(); j++)
+    for (char j = 'A'; j <= 'F'; j++)
     {
-        s1[i] = s[j];
-        if (i == k-1)
+        s[i] = j;
+        if (i == 3)
         {
             xuat();
         }
@@ -32,9 +32,7 @@ void permutation(int i)
 int main()
 {
     freopen("output.txt", "w", stdout);
-    k = s.length();
-    k -= 2;
-    permutation(i);
+    permutation(0);
     cout << endl << count;
     return 0;
-} 
+}
