@@ -30,8 +30,8 @@ int check(int n)
 }
 int main()
 {
-    freopen("infile","r",stdin);
-    freopen("outfile","w",stdout);
+    freopen("infile.txt","r",stdin);
+    freopen("outfile.txt","w",stdout);
     int n;
     cin >> n;
     if(n==1)
