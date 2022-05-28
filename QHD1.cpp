@@ -65,3 +65,4 @@ int main()
     }
     return 0;
 }
+// dãy con tăng đơn điệu dài nhất
