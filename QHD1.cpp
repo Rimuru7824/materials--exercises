@@ -53,9 +53,9 @@ int main()
     Max =  GTLN(a,n);
     Min = GTNN(a,n);
     insert_array(Min,Max);
-    int N = a.size() - 2;
+    int N = a.size() - 1;
     QHD(a,N);
-    cout << "maximum length of subarray : " << l[0] -1 << endl;
+    cout << "maximum length of subarray : " << l[0] -2 << endl;
     cout << "longest monotonically increasing array : " ;
     int i=0;
     while(t[i]< N)
